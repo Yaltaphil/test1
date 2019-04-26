@@ -18,5 +18,12 @@ let a1 = prompt("Введите обязательную статью расхо
 AppData.expenses.a1 = a2;
 AppData.expenses.a3 = a4;
 
+
 alert(AppData.budget / 30);
-console.log(AppData.expenses);
+alert(AppData.expenses);
+
+let num = 53;
+while (num < 55) {
+    console.log(num);
+    num++;
+}

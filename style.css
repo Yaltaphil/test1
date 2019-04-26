@@ -1,0 +1,27 @@
+body {
+    padding: 0px;
+    margin: 0;
+    background: grey;
+    font-size: 14px;
+    font-family: Arial, Sans-serif;
+}
+
+#basic {
+    width: 960px;
+    min-height: 950px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    color: red;
+}
+
+a hover {
+    text-decoration: none;
+}
