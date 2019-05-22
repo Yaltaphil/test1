@@ -48,3 +48,20 @@ while (num < 55) {
     console.log(num);
     num++;
 }
+
+
+
+function remove(s, n) {
+    for (let i = 0; i < n; i++) s=s.replace(/[!]/, '');
+    return s;
+
+}
+
+console.log(remove('!!hi', 5));
+
+function remove(s, n) {
+    if (n==0) return s;
+    else return remove(s.replace(/[!]/, ''), n-1);
+    }
+
+console.log(remove('!!hi', 5));

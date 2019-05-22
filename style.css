@@ -1,4 +1,4 @@
-body {
+/* body {
     padding: 0px;
     margin: 0;
     background: grey;
@@ -24,4 +24,11 @@ a {
 
 a hover {
     text-decoration: none;
+} */
+
+.window {
+    background-color: chartreuse;
+    color: fuchsia;
+    font-size: 100px;
+    text-align: center;
 }
